@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us here to receive more info about the Los Angeles Rams">
+    <title>Contact Us - All About The Rams</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="Scores.html" class="nav-link">Scores</a>
+            <a href="Stats.html" class="nav-link">Stats</a>
+            <a href="News.html" class="nav-link">News</a>
+            <a href="Contact.html" class="nav-link active">Contact</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="contact-section">
+            <div class="header-container">
+                <img src="LARams.webp" alt="LA Rams Logo" class="rams-logo">
+                <h1>Contact Us</h1>
+            </div>
+            
+            <div class="stats-description">
+                <p>Have questions about the Los Angeles Rams? Want to share feedback or get in touch with our team? We'd love to hear from you!</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-form-section">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="">Select a topic...</option>
+                                <option value="general">General Question</option>
+                                <option value="feedback">Website Feedback</option>
+                                <option value="news">News & Updates</option>
+                                <option value="stats">Stats & Scores</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-section">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@allabouttherams.com">info@allabouttherams.com</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Response Time</h3>
+                            <p>We typically respond within 24-48 hours</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Follow the Rams</h3>
+                            <p>Stay updated with the latest Rams news, scores, and stats right here on All About The Rams!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-email">
+                <a href="mailto:info@allabouttherams.com">info@allabouttherams.com</a>
+            </div>
+            <p class="footer-copyright">
+                © 2025 All About The Rams. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
