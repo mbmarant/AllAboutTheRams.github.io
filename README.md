@@ -1,2 +1,2 @@
 # AllAboutTheRams.github.io
-This repositry contains files for All About The Rams website.
+This repository contains files for All About The Rams website.
